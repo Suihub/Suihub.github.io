@@ -21,7 +21,6 @@ title_separator          : "&#124;"
 subtitle                 : "개발 관련 공부를 정리한 블로그입니다."
 name                     : "수이헙"
 description              : "주니어 개발을 향해"
-minimal_mistakes_skin: "mint"
 url                      :  "https://Suihub.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -277,6 +276,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       comments: # true
