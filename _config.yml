@@ -19,7 +19,7 @@ locale                   : "kr-KR"
 title                    : "개발 글짓기"
 title_separator          : "&#124;"
 subtitle                 : "개발 관련 공부를 정리한 블로그입니다."
-name                     : "이지우"
+name                     : "수이헙"
 description              : "주니어 개발을 향해"
 url                      :  "https://Suihub.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "이지우"
+  name             : "수이헙"
   avatar           : "/assets/images/Minsik.jpg"
-  bio              : "개발을 실현하는 사람"
+  bio              : "상상을 실현으로!"
   location         : "Korea"
-  email            : qkdcrt@gmail.com
+  email            : #
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
