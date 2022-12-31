@@ -283,6 +283,7 @@ defaults:
   - scope:
       path: ""
       type: posts
+      permalink: /:categories/:title/
     values:
       show_date: true
       layout: single
