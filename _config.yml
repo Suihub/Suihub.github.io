@@ -281,7 +281,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/:categories/:title/"
       type: posts
       permalink: /:categories/:title/
     values:
@@ -293,3 +293,4 @@ defaults:
       share: true
       related: true
       sidebar_main: true
+      permalink: /:categories/:title/
