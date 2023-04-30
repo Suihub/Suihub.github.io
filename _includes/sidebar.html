@@ -46,6 +46,16 @@
                   {% endfor %}
               </ul>
         </li>
+        <li>
+          <span class="nav__sub-title">Spring-FrameWork</span>
+              <ul>
+                  {% for category in site.categories %}
+                      {% if category[0] == "SpLibrary" %}
+                          <li><a href="categories/SpLibrary" class="">라이브러리 ({{category[1].size}})</a></li>
+                      {% endif %}
+                  {% endfor %}
+              </ul>
+        </li>
     </ul>
   </nav>
 
